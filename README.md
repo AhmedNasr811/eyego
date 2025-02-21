@@ -20,7 +20,7 @@ This is a simple Node.js application deployed on Kubernetes. It runs on **localh
 ├── deployment.yaml  # Kubernetes Deployment configuration
 ├── service.yaml     # Kubernetes Service configuration
 ├── Jenkinsfile      # CI/CD pipeline configuration
-├── src/             # Application source code
+├── server.js        # Application source code
 ├── package.json     # Node.js dependencies
 ├── README.md        # Project documentation
 ```
@@ -56,7 +56,7 @@ npm install
 ### **3️⃣ Run the App Locally**
 
 ```sh
-node src/server.js
+node server.js
 ```
 
 Access the app at **[http://localhost:3000](http://localhost:3000)**
